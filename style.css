@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+html, body {
+  overflow: hidden;
+  margin:0;
+  padding:0;
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+  object {
+    width: 200%;
+  }
+  .slogan {
+    width: 200%;
+    height: 200%;
+  }
+  .title {
+    transform: skewY(-20deg);
+    transform-origin: left;
+  }
+  h1, h2, h3 {
+    transform: skewY(20deg);
+  }
+  h2 {
+    padding: 1%;
+  }
+  h1 {
+      padding-top: 20%;
+  }
+  #countdown {
+    border: -16%;
+  }
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+  object {
+    width: 200%;
+  }
+  .title {
+    transform: skewY(-20deg);
+    transform-origin: left;
+  }
+  h1, h2, h3 {
+    transform: skewY(20deg);
+  }
+  h1 {
+      padding-top: 20%;
+  }
+  h2 {
+    padding: 1%;
+  }
+  #countdown {
+    margin: -16%;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  object {
+    width: 200%;
+  }
+  .title {
+    transform: skewY(-20deg);
+    transform-origin: left;
+    height: 40%;
+  }
+  h1, h2, h3 {
+    transform: skewY(20deg);
+  }
+  h1 {
+      padding-top: 20%;
+  }
+  h2 {
+    padding: 1%;
+  }
+  #countdown {
+    margin: -18%;
+  }
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  object {
+    width: 200%;
+    margin-top: -13%;
+  }
+  .title {
+    transform: skewY(-10deg);
+    transform-origin: left;
+    height: 60%;
+  }
+  h1, h2, h3 {
+    transform: skewY(10deg);
+  }
+  h1 {
+      padding-top: 9%;
+  }
+  h2 {
+    padding: 1%;
+  }
+  #countdown {
+    margin: -8%;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  object {
+    width: 200%;
+    margin-top: -10%;
+  }
+    .title {
+      transform: skewY(-10deg);
+      transform-origin: left;
+      height: 40%;
+    }
+    h1, h2, h3 {
+      transform: skewY(10deg);
+    }
+    h1 {
+        padding-top: 9%;
+    }
+    h2 {
+      padding: 1%;
+    }
+    #countdown {
+      margin: -8%;
+    }
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+
+  object {
+    width: 200%;
+    margin-top: -10%;
+  }
+  .title {
+    transform: skewY(-10deg);
+    transform-origin: left;
+    height: 50%;
+  }
+  h1, h2, h3 {
+    transform: skewY(10deg);
+  }
+  h1 {
+      padding-top: 9%;
+  }
+  h2 {
+    padding: 1%;
+  }
+  #countdown {
+    margin: -8%;
+  }
+
+}
+.slogan {
+  background-color: #0567b1;
+  transform: skewY(-40deg);
+  box-shadow: 1px black;
+  -webkit-box-shadow: -9px -9px 112px -22px rgba(0,0,0,0.75);
+  -moz-box-shadow: -9px -9px 112px -22px rgba(0,0,0,0.75);
+  box-shadow: -9px -9px 112px -22px rgba(0,0,0,0.75);
+}
+h1 {
+  text-align: center;
+  /*transform: skewY(40deg);*/
+  color: #fff;
+  font-size: calc(25px + 3.5vh);
+}
+h2 {
+  text-align: center;
+  /*transform: skewY(40deg);*/
+  color: #fff;
+  font-size: calc(15px + 1.5vh);
+}
+h3 {
+  text-align: center;
+  /*transform: skewY(40deg);*/
+  color: #fff;
+  font-size: calc(10px + 1vh);
+}
+#countdown {
+  font-size: calc(25px + 2vh);
+}
+
+.title {
+  background-color: #0567b1;
+  border: -1px;
+  -webkit-box-shadow: -4px 44px 80px -3px rgba(0,0,0,0.47);
+  -moz-box-shadow: -4px 44px 80px -3px rgba(0,0,0,0.47);
+  box-shadow: -4px 44px 80px -3px rgba(0,0,0,0.47);
+}
