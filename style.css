@@ -93,11 +93,6 @@ html, body {
   h1 {
       padding-top: 20%;
   }
-  h2 {
-    margin-top: -40%;
-    font-size: calc(40px + 2vh);
-    color: #000;
-  }
   #countdown {
     margin: -18%;
   }
@@ -135,6 +130,9 @@ html, body {
   #countdown {
     margin: -8%;
   }
+  slogan-for-portrait {
+    display: none;
+  }
 }
 
 /*
@@ -166,6 +164,9 @@ html, body {
     }
     #countdown {
       margin: -8%;
+    }
+    .slogan-for-portrait {
+      display: none;
     }
 }
 /*
@@ -233,4 +234,14 @@ h3 {
 }
 .svg-container  {
   text-align: center;
+}
+.slogan-for-landscape {
+  padding: 1%;
+  font-size: 2vw;
+  color: #fff;
+}
+.slogan-for-portrait {
+  margin-top: -40%;
+  font-size: calc(40px + 2vh);
+  color: #000;
 }
