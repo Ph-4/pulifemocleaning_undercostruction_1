@@ -41,6 +41,9 @@ html, body {
   #countdown {
     border: -16%;
   }
+  slogan-for-landscape {
+    display: none;
+  }
 }
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -197,6 +200,9 @@ html, body {
   }
   #countdown {
     margin: -8%;
+  }
+  slogan-for-portrait {
+    display: none;
   }
 
 }
