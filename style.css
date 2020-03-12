@@ -34,7 +34,6 @@ html, body {
   }
   h2 {
     padding: 1%;
-    color: #000;
   }
   h1 {
       padding-top: 20%;
@@ -76,27 +75,34 @@ html, body {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
   object {
-    width: 200%;
+    width: 190%;
+    height: 60%;
+    margin-left: -7v  w;
   }
   .title {
     transform: skewY(-20deg);
     transform-origin: left;
-    height: 40%;
+    height: 30%;
   }
-  h1, h2, h3 {
+  h1, h3 {
     transform: skewY(20deg);
   }
   h1 {
       padding-top: 20%;
   }
   h2 {
-    padding: 1%;
+    margin-top: -40%;
+    font-size: calc(40px + 2vh);
+    color: #000;
   }
   #countdown {
     margin: -18%;
+  }
+  .slogan-for-landscape {
+    display: none;
   }
 }
 /*
@@ -123,6 +129,8 @@ html, body {
   }
   h2 {
     padding: 1%;
+    font-size: calc(15px + 1.5vh);
+    color: #fff;
   }
   #countdown {
     margin: -8%;
@@ -153,6 +161,8 @@ html, body {
     }
     h2 {
       padding: 1%;
+      font-size: 2vw;
+      color: #fff;
     }
     #countdown {
       margin: -8%;
@@ -181,6 +191,8 @@ html, body {
   }
   h2 {
     padding: 1%;
+    font-size: 2vw;
+    color: #fff;
   }
   #countdown {
     margin: -8%;
@@ -197,19 +209,14 @@ html, body {
 }
 h1 {
   text-align: center;
-  /*transform: skewY(40deg);*/
   color: #fff;
   font-size: calc(25px + 3.5vh);
 }
 h2 {
   text-align: center;
-  /*transform: skewY(40deg);*/
-  color: #fff;
-  font-size: calc(15px + 1.5vh);
 }
 h3 {
   text-align: center;
-  /*transform: skewY(40deg);*/
   color: #fff;
   font-size: calc(10px + 1vh);
 }
@@ -223,4 +230,7 @@ h3 {
   -webkit-box-shadow: -4px 44px 80px -3px rgba(0,0,0,0.47);
   -moz-box-shadow: -4px 44px 80px -3px rgba(0,0,0,0.47);
   box-shadow: -4px 44px 80px -3px rgba(0,0,0,0.47);
+}
+.svg-container  {
+  text-align: center;
 }
